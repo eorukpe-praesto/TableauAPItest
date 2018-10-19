@@ -1,0 +1,50 @@
+{
+    "users": [{
+        "user": {
+            "name": "User1",
+            "password": "1234User1",
+            "site name": "Default",
+			"site role": "Publisher",
+			"groups": [{
+				"group": {
+					"name": "TableauExample",
+					"action": "add"
+				}
+			}, {
+				"group": {
+					"name": "TableauExample1",
+					"action": "remove"
+				}
+			}]
+        }
+		
+    }, {
+        "user": {
+            "name": "User2",
+            "password": "1234User2",
+            "site name": "Default",
+			"site role": "Publisher",
+			"groups": [{
+				"group": {
+					"name": "TableauExample",
+					"action": "remove"
+				}
+			}]
+        }
+		
+    }, {
+        "user": {
+            "name": "User3",
+            "password": "1234User3",
+            "site name": "Default",
+			"site role": "Publisher",
+			"groups": [{
+				"group": {
+					"name": "TableauExample1",
+					"action": "add"
+				}
+			}]
+        }
+		
+    }]
+}
